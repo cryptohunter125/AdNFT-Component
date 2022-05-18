@@ -1,0 +1,97 @@
+.adNFT{
+    position: relative;
+    display: flex;
+}
+.adDialog{
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.connectDialog{
+    z-index: 102;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.connectDialogBackgroud{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.connectDialogWindow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 101;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}
+.connectDialogButton{
+    padding: 20px 20px;
+    background: #3E4461;
+    color: #fff;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.adDialogBackgroud{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.adDialogContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .adDialogWindow{
+    border-radius: 10px;
+    z-index: 101;
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    background: #fff;;
+    padding: 20px;
+}
+.adDialogWindowHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.adDialogClose{
+    cursor: pointer;
+    color: #0057FF;
+}
+.adDialogWindowContent{
+    margin: 0px;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0px auto;
+}
+.adDialogWindowButton{
+    cursor: pointer;
+    color: #fff;
+    background: #0057FF;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 6px;
+}
+.adDialog a{
+    color: #fff;
+}
